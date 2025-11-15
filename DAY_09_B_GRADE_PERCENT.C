@@ -54,3 +54,10 @@ int main() {
         printf("Grade C\n");
     }
     else if (percent >= 60) {
+         printf("Grade D\n");
+    }
+    else{
+      printf("Grade F\n");
+     }
+     return 0 ;
+}
