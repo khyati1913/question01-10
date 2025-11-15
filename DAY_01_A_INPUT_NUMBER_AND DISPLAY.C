@@ -20,9 +20,8 @@ Sum = 19
 int main() {
     int a, b, sum;
     // input two integers
-    if (scanf("%d %d", &a, &b) != 2) {
-        return 1; // error in input
-    }
+    scanf("%d",&a);
+    scanf("%d",&b);
     sum = a + b;
     printf("Sum = %d\n", sum);
     return 0;
